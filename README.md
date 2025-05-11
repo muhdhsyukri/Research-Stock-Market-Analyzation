@@ -1,7 +1,7 @@
 # Research-Stock-Market-Analyzation
 This project explores stock market trends and volatility for four major tech companies — Apple (AAPL), Microsoft (MSFT), NVIDIA (NVDA), and Alphabet (GOOGL) — using R programming and reproducible data analysis workflows.
 
-Over the course of 25 hours, this project includes:
+Over the course, this project includes:
 
 1) Data collection from Yahoo Finance (1-year historical data)
 2) Exploratory Data Analysis (EDA): returns, volume, and price movement
