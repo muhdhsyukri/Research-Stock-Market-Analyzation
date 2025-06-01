@@ -1,0 +1,1866 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0208.0338                               -->
+<workbook original-version='18.1' source-build='2024.3.4 (20243.25.0208.0338)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Returns_Comparison' inline='true' name='federated.04ilqfi03mztxe1ay9ncl1o0z7ok' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Returns_Comparison' name='textscan.18zxd8f01lyass135rsx70q22cix'>
+            <connection class='textscan' directory='C:/Users/Admin/Documents' filename='Returns_Comparison.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.18zxd8f01lyass135rsx70q22cix' name='Returns_Comparison.csv' table='[Returns_Comparison#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='real' name='Apple' ordinal='1' />
+            <column datatype='real' name='Microsoft' ordinal='2' />
+            <column datatype='real' name='Nvidia' ordinal='3' />
+            <column datatype='real' name='Google' ordinal='4' />
+            <column datatype='real' name='Nasdaq' ordinal='5' />
+            <column datatype='real' name='SP500' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Returns_Comparison.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;RM&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_MY&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Returns_Comparison.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Apple</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Apple]</local-name>
+            <parent-name>[Returns_Comparison.csv]</parent-name>
+            <remote-alias>Apple</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Microsoft</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Microsoft]</local-name>
+            <parent-name>[Returns_Comparison.csv]</parent-name>
+            <remote-alias>Microsoft</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nvidia</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nvidia]</local-name>
+            <parent-name>[Returns_Comparison.csv]</parent-name>
+            <remote-alias>Nvidia</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Google</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Google]</local-name>
+            <parent-name>[Returns_Comparison.csv]</parent-name>
+            <remote-alias>Google</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nasdaq</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nasdaq]</local-name>
+            <parent-name>[Returns_Comparison.csv]</parent-name>
+            <remote-alias>Nasdaq</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SP500</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SP500]</local-name>
+            <parent-name>[Returns_Comparison.csv]</parent-name>
+            <remote-alias>SP500</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Apple]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Google]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Microsoft]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Nasdaq]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Nvidia]' role='measure' type='quantitative' />
+      <column caption='Sp500' datatype='real' name='[SP500]' role='measure' type='quantitative' />
+      <column caption='Returns_Comparison.csv' datatype='table' name='[__tableau_internal_object_id__].[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]' role='measure' type='quantitative' />
+      <column-instance column='[Apple]' derivation='Sum' name='[sum:Apple:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Google]' derivation='Sum' name='[sum:Google:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Microsoft]' derivation='Sum' name='[sum:Microsoft:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nasdaq]' derivation='Sum' name='[sum:Nasdaq:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nvidia]' derivation='Sum' name='[sum:Nvidia:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SP500]' derivation='Sum' name='[sum:SP500:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_1c1byng0l0b0w914n26070dbfdp2.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/21/2025 03:25:59 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Returns_Comparison.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>561</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Apple</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Apple]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Apple</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Returns_Comparison.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>561</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Microsoft</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Microsoft]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Microsoft</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Returns_Comparison.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>560</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Nvidia</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Nvidia]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nvidia</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Returns_Comparison.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>561</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Google</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Google]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Google</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Returns_Comparison.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>561</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Nasdaq</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Nasdaq]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nasdaq</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Returns_Comparison.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>561</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SP500</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SP500]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SP500</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Returns_Comparison.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>561</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Apple:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nvidia:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Google:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Microsoft:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Malaysia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Returns_Comparison.csv' id='Returns_Comparison.csv_F9C7049073364D9A887CE7735490278C'>
+            <properties context=''>
+              <relation connection='textscan.18zxd8f01lyass135rsx70q22cix' name='Returns_Comparison.csv' table='[Returns_Comparison#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='real' name='Apple' ordinal='1' />
+                  <column datatype='real' name='Microsoft' ordinal='2' />
+                  <column datatype='real' name='Nvidia' ordinal='3' />
+                  <column datatype='real' name='Google' ordinal='4' />
+                  <column datatype='real' name='Nasdaq' ordinal='5' />
+                  <column datatype='real' name='SP500' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Beta Apple NASDAQ'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Returns_Comparison' name='federated.04ilqfi03mztxe1ay9ncl1o0z7ok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ilqfi03mztxe1ay9ncl1o0z7ok'>
+            <column datatype='real' name='[Apple]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Nasdaq]' role='measure' type='quantitative' />
+            <column-instance column='[Apple]' derivation='Sum' name='[sum:Apple:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nasdaq]' derivation='Sum' name='[sum:Nasdaq:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Apple:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Apple:qk] + [federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk])</rows>
+        <cols>[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{2F05E2C8-875D-41CF-B44B-072DC0F176B8}' />
+    </worksheet>
+    <worksheet name='Beta Apple S&amp;P 500'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Returns_Comparison' name='federated.04ilqfi03mztxe1ay9ncl1o0z7ok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ilqfi03mztxe1ay9ncl1o0z7ok'>
+            <column datatype='real' name='[Apple]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column caption='Sp500' datatype='real' name='[SP500]' role='measure' type='quantitative' />
+            <column-instance column='[Apple]' derivation='Sum' name='[sum:Apple:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SP500]' derivation='Sum' name='[sum:SP500:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Apple:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Apple:qk] + [federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk])</rows>
+        <cols>[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{B868070E-464D-4A3A-8EF5-293A7B0BEE5F}' />
+    </worksheet>
+    <worksheet name='Beta Google NASDAQ'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Returns_Comparison' name='federated.04ilqfi03mztxe1ay9ncl1o0z7ok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ilqfi03mztxe1ay9ncl1o0z7ok'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Google]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nasdaq]' role='measure' type='quantitative' />
+            <column-instance column='[Google]' derivation='Sum' name='[sum:Google:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nasdaq]' derivation='Sum' name='[sum:Nasdaq:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Google:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Google:qk] + [federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk])</rows>
+        <cols>[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{5151E157-3B3E-4633-B076-833C63ABB040}' />
+    </worksheet>
+    <worksheet name='Beta Google S&amp;P 500'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Returns_Comparison' name='federated.04ilqfi03mztxe1ay9ncl1o0z7ok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ilqfi03mztxe1ay9ncl1o0z7ok'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Google]' role='measure' type='quantitative' />
+            <column caption='Sp500' datatype='real' name='[SP500]' role='measure' type='quantitative' />
+            <column-instance column='[Google]' derivation='Sum' name='[sum:Google:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SP500]' derivation='Sum' name='[sum:SP500:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Google:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Google:qk] + [federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk])</rows>
+        <cols>[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{18022356-9C0E-423F-B1EC-36817677C4D7}' />
+    </worksheet>
+    <worksheet name='Beta Microsoft NASDAQ'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Returns_Comparison' name='federated.04ilqfi03mztxe1ay9ncl1o0z7ok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ilqfi03mztxe1ay9ncl1o0z7ok'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Microsoft]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nasdaq]' role='measure' type='quantitative' />
+            <column-instance column='[Microsoft]' derivation='Sum' name='[sum:Microsoft:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nasdaq]' derivation='Sum' name='[sum:Nasdaq:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Microsoft:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Microsoft:qk] + [federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk])</rows>
+        <cols>[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{B4F96A7D-93DB-4ED1-8EB1-6FC5C9C3C84F}' />
+    </worksheet>
+    <worksheet name='Beta Microsoft S&amp;P 500'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Returns_Comparison' name='federated.04ilqfi03mztxe1ay9ncl1o0z7ok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ilqfi03mztxe1ay9ncl1o0z7ok'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Microsoft]' role='measure' type='quantitative' />
+            <column caption='Sp500' datatype='real' name='[SP500]' role='measure' type='quantitative' />
+            <column-instance column='[Microsoft]' derivation='Sum' name='[sum:Microsoft:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SP500]' derivation='Sum' name='[sum:SP500:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Microsoft:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Microsoft:qk] + [federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk])</rows>
+        <cols>[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{B697D971-7F7B-49B0-93C6-A937EC869785}' />
+    </worksheet>
+    <worksheet name='Beta Nvidia NASDAQ'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Returns_Comparison' name='federated.04ilqfi03mztxe1ay9ncl1o0z7ok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ilqfi03mztxe1ay9ncl1o0z7ok'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Nasdaq]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nvidia]' role='measure' type='quantitative' />
+            <column-instance column='[Nasdaq]' derivation='Sum' name='[sum:Nasdaq:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nvidia]' derivation='Sum' name='[sum:Nvidia:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nvidia:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nvidia:qk] + [federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nasdaq:qk])</rows>
+        <cols>[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{90651405-0720-4B71-B577-9D1F7A281E7C}' />
+    </worksheet>
+    <worksheet name='Beta Nvidia S&amp;P 500'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Returns_Comparison' name='federated.04ilqfi03mztxe1ay9ncl1o0z7ok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ilqfi03mztxe1ay9ncl1o0z7ok'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Nvidia]' role='measure' type='quantitative' />
+            <column caption='Sp500' datatype='real' name='[SP500]' role='measure' type='quantitative' />
+            <column-instance column='[Nvidia]' derivation='Sum' name='[sum:Nvidia:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SP500]' derivation='Sum' name='[sum:SP500:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nvidia:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:Nvidia:qk] + [federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[sum:SP500:qk])</rows>
+        <cols>[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{D616E7FE-75AF-4F36-9DE1-2276F6B32BB8}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Apple Beta'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98004' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='998'>
+            <zone h='98004' id='5' type-v2='layout-basic' w='72923' x='1231' y='998'>
+              <zone h='49002' id='3' name='Beta Apple S&amp;P 500' w='72923' x='1231' y='998'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49002' id='9' name='Beta Apple NASDAQ' w='72923' x='1231' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98004' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='24615' x='74154' y='998'>
+              <zone h='8978' id='8' name='Beta Apple S&amp;P 500' pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type-v2='color' w='24615' x='74154' y='998'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='10' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='49002' id='3' is-fixed='true' name='Beta Apple S&amp;P 500' w='72923' x='1231' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8978' id='8' name='Beta Apple S&amp;P 500' pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type-v2='color' w='24615' x='74154' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49002' id='9' is-fixed='true' name='Beta Apple NASDAQ' w='72923' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0C91660C-4941-44EC-9B33-CA22A704EF5C}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Google Beta'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98004' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='998'>
+            <zone h='98004' id='5' type-v2='layout-basic' w='72923' x='1231' y='998'>
+              <zone h='49002' id='3' name='Beta Google S&amp;P 500' w='72923' x='1231' y='998'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49002' id='9' name='Beta Google NASDAQ' w='72923' x='1231' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98004' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='24615' x='74154' y='998'>
+              <zone h='8978' id='8' name='Beta Google S&amp;P 500' pane-specification-id='2' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type-v2='color' w='24615' x='74154' y='998'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='10' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
+                <zone fixed-size='280' h='49002' id='3' is-fixed='true' name='Beta Google S&amp;P 500' w='72923' x='1231' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8978' id='8' name='Beta Google S&amp;P 500' pane-specification-id='2' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type-v2='color' w='24615' x='74154' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49002' id='9' is-fixed='true' name='Beta Google NASDAQ' w='72923' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5417FB74-6929-4715-A3C6-C09F9F6469CE}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Microsoft Beta'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98004' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='998'>
+            <zone h='98004' id='5' type-v2='layout-basic' w='72923' x='1231' y='998'>
+              <zone h='49002' id='3' name='Beta Microsoft S&amp;P 500' w='72923' x='1231' y='998'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49002' id='9' name='Beta Microsoft NASDAQ' w='72923' x='1231' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98004' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='24615' x='74154' y='998'>
+              <zone h='8978' id='8' name='Beta Microsoft S&amp;P 500' pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type-v2='color' w='24615' x='74154' y='998'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='10' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='49002' id='3' is-fixed='true' name='Beta Microsoft S&amp;P 500' w='72923' x='1231' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8978' id='8' name='Beta Microsoft S&amp;P 500' pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type-v2='color' w='24615' x='74154' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49002' id='9' is-fixed='true' name='Beta Microsoft NASDAQ' w='72923' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CB50EEE4-CB9A-4D6D-A708-29E6EFB3BC16}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Nvidia Beta'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98004' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='998'>
+            <zone h='98004' id='5' type-v2='layout-basic' w='72923' x='1231' y='998'>
+              <zone h='49002' id='3' name='Beta Nvidia S&amp;P 500' w='72923' x='1231' y='998'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49002' id='9' name='Beta Nvidia NASDAQ' w='72923' x='1231' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98004' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='24615' x='74154' y='998'>
+              <zone h='8978' id='8' name='Beta Nvidia S&amp;P 500' pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type-v2='color' w='24615' x='74154' y='998'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='10' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
+                <zone fixed-size='280' h='49002' id='3' is-fixed='true' name='Beta Nvidia S&amp;P 500' w='72923' x='1231' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8978' id='8' name='Beta Nvidia S&amp;P 500' pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type-v2='color' w='24615' x='74154' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49002' id='9' is-fixed='true' name='Beta Nvidia NASDAQ' w='72923' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{98B3F490-C202-4D01-9999-483248616174}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Beta Apple S&amp;P 500'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{18741F2C-6EF9-48AD-912C-1728CF903F2C}' />
+    </window>
+    <window class='worksheet' name='Beta Apple NASDAQ'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4ACED719-7B93-4C52-B4BE-7B2C954E63B8}' />
+    </window>
+    <window class='worksheet' name='Beta Google S&amp;P 500'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C785FC99-C4B1-4995-BBE1-E1CBD3BC156B}' />
+    </window>
+    <window class='worksheet' name='Beta Google NASDAQ'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2215BCF6-565B-4BA8-868F-DE445C94BD10}' />
+    </window>
+    <window class='worksheet' name='Beta Microsoft S&amp;P 500'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C27BDEEA-CD41-4171-98EC-D0085A0F6F91}' />
+    </window>
+    <window class='worksheet' name='Beta Microsoft NASDAQ'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9B2C1F02-1489-4906-BA63-FADB2470E69A}' />
+    </window>
+    <window class='worksheet' name='Beta Nvidia S&amp;P 500'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4086F3CD-F9D3-4705-9D79-532BB1B8D024}' />
+    </window>
+    <window class='worksheet' name='Beta Nvidia NASDAQ'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.04ilqfi03mztxe1ay9ncl1o0z7ok].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{052950C0-0C2F-4014-846C-616CFFB35BE9}' />
+    </window>
+    <window class='dashboard' name='Apple Beta'>
+      <viewpoints>
+        <viewpoint name='Beta Apple NASDAQ'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Beta Apple S&amp;P 500'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{D9611B48-3B61-49F8-B566-1636FCBBE7DC}' />
+    </window>
+    <window class='dashboard' name='Google Beta'>
+      <viewpoints>
+        <viewpoint name='Beta Google NASDAQ'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Beta Google S&amp;P 500'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{5D0191C1-A053-4462-9516-56DC612919E3}' />
+    </window>
+    <window class='dashboard' name='Microsoft Beta'>
+      <viewpoints>
+        <viewpoint name='Beta Microsoft NASDAQ'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Beta Microsoft S&amp;P 500'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B4C8319B-BE7D-4B7E-846B-04C798FEEA61}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Nvidia Beta'>
+      <viewpoints>
+        <viewpoint name='Beta Nvidia NASDAQ'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Beta Nvidia S&amp;P 500'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B36AFB8F-FF61-4EBD-811C-95E124E742E7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Google Beta' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Nvidia Beta' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
