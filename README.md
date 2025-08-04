@@ -63,12 +63,11 @@ The system is built using **Python (Jupyter/Colab)** and integrates **Yahoo Fina
    - `python-docx` – Word document export  
 
 3. **Run the Notebooks / Scripts**
-   - **Jupyter / Colab**: Open `Week 12 Codes.ipynb` or `Week 12 Company Analyzer.ipynb`
-   - **Python scripts** (optional):
-     ```bash
-     python scripts/sentiment_keyword_extractor.py
-     python scripts/auto_price_change_tracker.py
-     ```
+
+1) **Upload the "Tickers Analyzer.ipynb" to Google Colab**
+
+<img width="1220" height="608" alt="Screenshot 2025-08-04 at 9 04 37 AM" src="https://github.com/user-attachments/assets/5617f402-6e7e-49c6-a4ad-529f1c254b63" />
+
 
 ---
 
