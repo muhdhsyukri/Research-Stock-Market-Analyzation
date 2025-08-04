@@ -100,7 +100,7 @@ The final output for the code will show the statistics of the first 5 tickers li
 After you successfully run all the files, you have to run the final code which is the csv downloader here:
 <img width="1118" height="501" alt="Screenshot 2025-08-04 at 9 44 12 AM" src="https://github.com/user-attachments/assets/529647f7-e7a8-450f-aa91-84b6eb5ccd53" />
 
-**Download the "Sentiment Analyzer.ipynb" file and upload it in the new google colab notebook. The file should look like this when you uploaded it:**
+2) **Download the "Sentiment Analyzer.ipynb" file and upload it in the new google colab notebook. The file should look like this when you uploaded it:**
 <img width="1390" height="805" alt="Screenshot 2025-08-04 at 9 47 49 AM" src="https://github.com/user-attachments/assets/22165597-68be-48cb-a7dc-a0705a745870" />
 
 
@@ -124,6 +124,13 @@ Run the "Download NLTK Resources" code and the head of the csv file should appea
 Run the "Keyword Based Company Snetiment..." code block here:
 <img width="1108" height="800" alt="Screenshot 2025-08-04 at 10 03 32 AM" src="https://github.com/user-attachments/assets/cf0f4074-ccbb-4c15-84ee-fd9661a65624" />
 
+
+Run the final code block to download the completed sentiment analysis of all the company tickers in the txt file:
+<img width="767" height="264" alt="Screenshot 2025-08-04 at 10 10 10 AM" src="https://github.com/user-attachments/assets/1c1a014b-9f61-47ce-b619-57bcc324213f" />
+
+
+The document file should look like this:
+<img width="767" height="264" alt="Screenshot 2025-08-04 at 10 10 10 AM" src="https://github.com/user-attachments/assets/67b6f083-3323-485d-9143-0ac1d31151b6" />
 
 
 ---
