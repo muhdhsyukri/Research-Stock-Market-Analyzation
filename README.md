@@ -89,7 +89,7 @@ After you uploaded the txt file, you can run the sentiment analyzer:
 <img width="1158" height="621" alt="Screenshot 2025-08-04 at 9 38 48 AM" src="https://github.com/user-attachments/assets/46b56fe5-3c92-4469-871a-f239be152573" />
 
 
-While the file is running, you have to scroll down and see the "choose file" option on the output. YOu have to click the button and upload the same "company_tickers.txt" file here:
+While the file is running, you have to scroll down and see the "choose file" option on the output. You have to click the button and upload the same "company_tickers.txt" file here:
 <img width="1171" height="429" alt="Screenshot 2025-08-04 at 9 39 49 AM" src="https://github.com/user-attachments/assets/896fabe7-d934-4947-b8fc-e7ec24775890" />
 
 
@@ -100,9 +100,28 @@ The final output for the code will show the statistics of the first 5 tickers li
 After you successfully run all the files, you have to run the final code which is the csv downloader here:
 <img width="1118" height="501" alt="Screenshot 2025-08-04 at 9 44 12 AM" src="https://github.com/user-attachments/assets/529647f7-e7a8-450f-aa91-84b6eb5ccd53" />
 
-**Download the "Sentiment Analyzer.ipynb" file and upload it in the new google colab notebook. The file shoukld like this when you uploaded it:**
+**Download the "Sentiment Analyzer.ipynb" file and upload it in the new google colab notebook. The file should look like this when you uploaded it:**
 <img width="1390" height="805" alt="Screenshot 2025-08-04 at 9 47 49 AM" src="https://github.com/user-attachments/assets/22165597-68be-48cb-a7dc-a0705a745870" />
 
+
+1) **Upload the CSV file that you downloaded earlier using the "upload to session storage" button here:**
+<img width="1077" height="709" alt="Screenshot 2025-08-04 at 9 53 46 AM" src="https://github.com/user-attachments/assets/27e098cc-647b-4832-8f42-cd95e546cc90" />
+
+
+It should look like this when you uploaded it:
+<img width="1077" height="709" alt="Screenshot 2025-08-04 at 9 53 46 AM" src="https://github.com/user-attachments/assets/868b28e4-b3c1-4a64-b972-69608b7ab83b" />
+
+
+After you uploaded the CSV file, you can run both code blocks of the "Required Packages" part and it should look like this:
+<img width="1456" height="801" alt="Screenshot 2025-08-04 at 9 58 19 AM" src="https://github.com/user-attachments/assets/0989033c-4024-4ce7-8e2f-28f6ec96fdd5" />
+
+
+Run the "Download NLTK Resources" code and the head of the csv file should appear as this photo:
+<img width="1469" height="798" alt="Screenshot 2025-08-04 at 10 00 47 AM" src="https://github.com/user-attachments/assets/55b40bb5-f4e3-4369-8eb8-0cdd3839bf6c" />
+
+
+Run the "Keyword Based Company Snetiment..." code block here:
+<img width="1108" height="800" alt="Screenshot 2025-08-04 at 10 03 32 AM" src="https://github.com/user-attachments/assets/cf0f4074-ccbb-4c15-84ee-fd9661a65624" />
 
 
 
