@@ -62,11 +62,30 @@ The system is built using **Python (Jupyter/Colab)** and integrates **Yahoo Fina
    - `textblob`, `nltk` – Sentiment analysis & keyword tagging  
    - `python-docx` – Word document export  
 
+
+
 3. **Run the Notebooks / Scripts**
 
 1) **Upload the "Tickers Analyzer.ipynb" to Google Colab**
 
-<img width="1220" height="608" alt="Screenshot 2025-08-04 at 9 04 37 AM" src="https://github.com/user-attachments/assets/5617f402-6e7e-49c6-a4ad-529f1c254b63" />
+The screen should look like this:
+<img width="1468" height="729" alt="Screenshot 2025-08-04 at 9 26 54 AM" src="https://github.com/user-attachments/assets/1b00ad85-3015-414b-9a10-60b4e5d84813" />
+
+
+After you run the environment setup, the screen should look like this:
+<img width="1465" height="739" alt="Screenshot 2025-08-04 at 9 27 53 AM" src="https://github.com/user-attachments/assets/4fb04490-2f17-49b0-b518-da05ec7a3b4c" />
+
+2)**Upload the "company_tickers.txt" in the files menu on Google Colab**
+
+After you downloaded the company_tickers.txt file on your computer, you should upload the file in the files menu as shown below:
+<img width="454" height="415" alt="Screenshot 2025-08-04 at 9 34 24 AM" src="https://github.com/user-attachments/assets/09faafe2-36ec-43aa-b7ae-9855b4a493f3" />
+
+Click the "upload to the session storage" button here:
+<img width="571" height="436" alt="Screenshot 2025-08-04 at 9 36 15 AM" src="https://github.com/user-attachments/assets/6c66ae71-8b93-49d8-8d58-1eb28fbddc61" />
+
+
+
+
 
 
 ---
