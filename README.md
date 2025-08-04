@@ -85,6 +85,23 @@ Click the "upload to the session storage" button here:
 <img width="571" height="436" alt="Screenshot 2025-08-04 at 9 36 15 AM" src="https://github.com/user-attachments/assets/6c66ae71-8b93-49d8-8d58-1eb28fbddc61" />
 
 
+After you uploaded the txt file, you can run the sentiment analyzer:
+<img width="1158" height="621" alt="Screenshot 2025-08-04 at 9 38 48 AM" src="https://github.com/user-attachments/assets/46b56fe5-3c92-4469-871a-f239be152573" />
+
+
+While the file is running, you have to scroll down and see the "choose file" option on the output. YOu have to click the button and upload the same "company_tickers.txt" file here:
+<img width="1171" height="429" alt="Screenshot 2025-08-04 at 9 39 49 AM" src="https://github.com/user-attachments/assets/896fabe7-d934-4947-b8fc-e7ec24775890" />
+
+
+The final output for the code will show the statistics of the first 5 tickers like this:
+<img width="1179" height="801" alt="Screenshot 2025-08-04 at 9 42 35 AM" src="https://github.com/user-attachments/assets/5a7f8cc4-89a3-4d65-8b94-07e7652f21ea" />
+
+
+After you successfully run all the files, you have to run the final code which is the csv downloader here:
+<img width="1118" height="501" alt="Screenshot 2025-08-04 at 9 44 12 AM" src="https://github.com/user-attachments/assets/529647f7-e7a8-450f-aa91-84b6eb5ccd53" />
+
+**Download the "Sentiment Analyzer.ipynb" file and upload it in the new google colab notebook. The file shoukld like this when you uploaded it:**
+<img width="1390" height="805" alt="Screenshot 2025-08-04 at 9 47 49 AM" src="https://github.com/user-attachments/assets/22165597-68be-48cb-a7dc-a0705a745870" />
 
 
 
