@@ -80,6 +80,7 @@ After you run the environment setup, the screen should look like this:
 After you downloaded the company_tickers.txt file on your computer, you should upload the file in the files menu as shown below:
 <img width="454" height="415" alt="Screenshot 2025-08-04 at 9 34 24 AM" src="https://github.com/user-attachments/assets/09faafe2-36ec-43aa-b7ae-9855b4a493f3" />
 
+
 Click the "upload to the session storage" button here:
 <img width="571" height="436" alt="Screenshot 2025-08-04 at 9 36 15 AM" src="https://github.com/user-attachments/assets/6c66ae71-8b93-49d8-8d58-1eb28fbddc61" />
 
