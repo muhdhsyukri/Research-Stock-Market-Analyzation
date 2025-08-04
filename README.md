@@ -21,26 +21,19 @@ The system is built using **Python (Jupyter/Colab)** and integrates **Yahoo Fina
 ## 🗂 Project Structure
 
 ```
-📂 Stock-Market-Sentiment-Analyzer
+📁 Stock-Market-Sentiment-Analyzer/
 │
-├── 📄 README.md                # Project overview (this file)
-├── 📄 requirements.txt         # Python library requirements
+├── 📄 README.md                       # Project overview, setup, and usage guide
+├── 📄 company_tickers.txt            # List of tickers to analyze
 │
-├── 📁 data/
-│   ├── Company Ticker Progress 26th July.csv   # Processed ticker sentiment & price data
+├── 📁 notebooks/                     # Interactive notebooks for analysis and prototyping
+│   ├── Sentiment Analyzer.ipynb      # News sentiment & price tracking (main notebook)
+│   └── Tickers Analyzer.ipynb        # Ticker-wise article extraction and metadata parsing
 │
-├── 📁 notebooks/
-│   ├── Week 12 Codes.ipynb                    # Sentiment extraction & keyword classification logic
-│   ├── Week 12 Company Analyzer.ipynb         # Ticker-level sentiment & price correlation
-│
-├── 📁 reports/
-│   ├── Company Progress Summary Week 12.docx  # Final company-level keyword summary
-│   ├── Company Progress Summary Week 11.docx
-│
-└── 📁 scripts/
-    ├── auto_price_change_tracker.py           # Tracks price changes at 1hr, 4hr, daily intervals
-    └── sentiment_keyword_extractor.py         # Handles sentiment & keyword classification
-```
+├── 📁 reports/                       # Final outputs and summaries
+│   ├── Acculumated Meeting Log.docx  # Compiled meeting logs
+│   ├── Acculumated Weekly Log.docx   # Compiled weekly activity logs
+│   └── (future) Company_Report_.docx # Output summaries by week (auto-generated)
 
 ---
 
