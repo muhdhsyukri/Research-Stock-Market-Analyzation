@@ -109,7 +109,8 @@ After you successfully run all the files, you have to run the final code which i
 
 
 It should look like this when you uploaded it:
-<img width="401" height="421" alt="Screenshot 2025-08-04 at 10 05 18 AM" src="https://github.com/user-attachments/assets/5e6013c9-f75a-4285-b9e6-14c928df775e" />
+<img width="402" height="423" alt="Screenshot 2025-08-04 at 10 06 25 AM" src="https://github.com/user-attachments/assets/07883f83-8c38-4976-a7b9-0f60acb90da1" />
+
 
 
 
