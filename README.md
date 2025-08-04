@@ -109,7 +109,8 @@ After you successfully run all the files, you have to run the final code which i
 
 
 It should look like this when you uploaded it:
-<img width="1077" height="709" alt="Screenshot 2025-08-04 at 9 53 46 AM" src="https://github.com/user-attachments/assets/868b28e4-b3c1-4a64-b972-69608b7ab83b" />
+<img width="401" height="421" alt="Screenshot 2025-08-04 at 10 05 18 AM" src="https://github.com/user-attachments/assets/5e6013c9-f75a-4285-b9e6-14c928df775e" />
+
 
 
 After you uploaded the CSV file, you can run both code blocks of the "Required Packages" part and it should look like this:
