@@ -126,6 +126,28 @@ The document file should look like this:
 <img width="767" height="264" alt="Screenshot 2025-08-04 at 10 10 10 AM" src="https://github.com/user-attachments/assets/67b6f083-3323-485d-9143-0ac1d31151b6" />
 
 
+3) Upload the "Stock Market Price Forecaster.ipynb" file and the file should like this when uploaded:
+<img width="1448" height="774" alt="Screenshot 2025-08-07 at 10 11 48 PM" src="https://github.com/user-attachments/assets/70bf9fb6-32a1-46ae-a1a1-6ef52ee8b841" />
+
+
+Run "CSV File Uploader" code block and upload the same CSV file that we downloaded using the Ticker analysis ipynb just now and the output of the code should look like this:
+<img width="939" height="168" alt="Screenshot 2025-08-07 at 10 15 04 PM" src="https://github.com/user-attachments/assets/d540b213-0967-4620-a5ab-5674f3c803ff" />
+
+
+Run the next code block and the output should show the amount of the ticker listed in the CSV file:
+<img width="771" height="406" alt="Screenshot 2025-08-07 at 10 15 41 PM" src="https://github.com/user-attachments/assets/6d778e74-1a31-4316-8b34-32991610b968" />
+
+
+Run the next 2 code blocks. The output of the second block should look like this:
+<img width="1403" height="702" alt="Screenshot 2025-08-07 at 10 18 39 PM" src="https://github.com/user-attachments/assets/7e3a05d7-a96c-45f8-9dcd-6bb37732997e" />
+
+
+Run the final code block to download the second CSV file which contains the forecasted stock market prices for all the company tickers for the next 3 days. The file should look like this:
+
+
+<img width="1403" height="702" alt="Screenshot 2025-08-07 at 10 18 39 PM" src="https://github.com/user-attachments/assets/51df1806-e735-417a-b766-4cb89dc328e5" />
+
+
 ---
 
 ## 📈 Sample Output
