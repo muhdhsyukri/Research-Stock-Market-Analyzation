@@ -143,9 +143,8 @@ Run the next 2 code blocks. The output of the second block should look like this
 
 
 Run the final code block to download the second CSV file which contains the forecasted stock market prices for all the company tickers for the next 3 days. The file should look like this:
+<img width="400" height="609" alt="Screenshot 2025-08-07 at 10 20 17 PM" src="https://github.com/user-attachments/assets/f5144fe8-9095-49e1-8296-6be587eb1861" />
 
-
-<img width="1403" height="702" alt="Screenshot 2025-08-07 at 10 18 39 PM" src="https://github.com/user-attachments/assets/51df1806-e735-417a-b766-4cb89dc328e5" />
 
 
 ---
